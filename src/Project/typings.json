@@ -1,0 +1,9 @@
+{
+  "ambientDependencies": {
+    "bootbox": "github:DefinitelyTyped/DefinitelyTyped/bootbox/bootbox.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
+    "bootstrap": "github:DefinitelyTyped/DefinitelyTyped/bootstrap/bootstrap.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#470954c4f427e0805a2d633636a7c6aa7170def8",
+    "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#b090bcf9ba9f756ec8ff53e7707269729172a325",
+    "moment-node": "github:DefinitelyTyped/DefinitelyTyped/moment/moment-node.d.ts#5b0c38ab2bd59980a095c025b11ebb6cc6cbf947"
+  }
+}

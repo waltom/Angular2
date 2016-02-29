@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <base href="#">
+
+    <title>Angular 2 Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 1. Load libraries -->
+    <script src="libs/es6-shim.min.js"></script>
+    <script src="libs/system-polyfills.js"></script>
+    <script src="libs/angular2-polyfills.js"></script>
+    <script src="libs/system.js"></script>
+    <script src="libs/rx.js"></script>
+    <script src="libs/angular2.dev.js"></script>
+    <script src="libs/http.dev.js"></script>
+    <script src="libs/router.dev.js"></script>
+
+    <!-- 2. Load styles -->
+
+    <!-- 3. Configure SystemJS -->
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+
+        System.import('app/main').then(null, console.error.bind(console));
+    </script>
+</head>
+<body>   
+    <app>Loading</app>
+</body>
+</html>
